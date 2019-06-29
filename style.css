@@ -1,0 +1,161 @@
+/* Global */
+:root {
+  --pri-cyan: hsl(171, 66%, 44%);
+  --pri-blue: hsl(233, 100%, 69%);
+  --neu-darkblue: hsl(210, 10%, 33%);
+  --neu-grayblue: hsl(201, 11%, 66%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  /* background */
+  background: url('./images/bg-header-desktop.png') no-repeat;
+  background-size: 100% auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--neu-darkblue);
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 0;
+}
+
+p {
+  color: var(--neu-grayblue);
+  font-size: 1.15em;
+  width: 45%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+section {
+  padding: 5.5% 0;
+  text-align: center;
+}
+
+button {
+  border: none;
+  border-radius: 40px;
+  padding: 20px 50px;
+  margin: 20px 30px;
+  font-size: 1.3em;
+  color: white;
+  box-shadow: 0 0 15px 0.25px black;
+}
+
+.grn {
+  background-color: var(--pri-cyan);
+}
+
+.blu {
+  background-color: var(--pri-blue);
+}
+
+/* Header */
+.imgHead {
+  height: 200px;
+}
+
+/* Mac Support */
+.gridBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sideTxt {
+  padding-top: 5%;
+  text-align: left;
+}
+
+/* Mobile Support */
+.mobileImg {
+  margin-top: 6em;
+}
+
+/* Features */
+.gridFeat {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  padding-top: 5em;
+}
+
+/* Companies */
+.gridComp {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: auto;
+  align-items: center;
+  padding: 3em 0;
+}
+
+.compLogo {
+  width: 150px;
+}
+
+/* Footer */
+footer {
+  background-color: hsla(198, 17%, 77%, 0.829);
+}
+
+.logo {
+}
+
+.footLogo {
+  width: 100px;
+}
+
+footer a {
+  color: var(--neu-darkblue);
+  text-decoration: none;
+}
+
+.gridFoot {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3%;
+}
+
+.gridLinks {
+  padding: 2.5% 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 40px;
+  text-align: center;
+}
+
+.social {
+  text-align: right;
+  padding: 40px 0px;
+}
+
+.socialImg {
+  padding: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
