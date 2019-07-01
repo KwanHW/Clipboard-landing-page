@@ -59,6 +59,11 @@ button {
   box-shadow: 0 0 15px 0.25px black;
 }
 
+button a {
+  color: white;
+  text-decoration: none;
+}
+
 .grn {
   background-color: var(--pri-cyan);
 }
